@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Hackathon</dc:title>
+    <dc:language>fr</dc:language>
+    <meta property="dcterms:modified">2014-06-08T15:44:15Z</meta>
+    <meta name="cover" content="cover-image"/>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">auto</meta>
+    <meta property="rendition:spread">none</meta>
+  </metadata>
+  <manifest>
+    <item href="i0.jpg" id="idi0" media-type="image/jpeg"/>
+    <item href="i1.jpg" id="cover-image" media-type="image/jpeg"/>
+    <item id="idp1" href="p1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="idp2" href="p2.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="idp3" href="p3.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="idp4" href="p4.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="idp5" href="p5.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="idp6" href="p6.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="idp7" href="p7.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item id="idp8" href="p8.xhtml" properties="scripted" media-type="application/xhtml+xml"/>
+    <item href="toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
+    <item href="nav.xhtml" properties="nav" id="nav" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="style.css" id="css" media-type="text/css"/>
+    <item href="Hackathon/css/main.css" id="hackathon_css_main_css" media-type="text/css"/>
+    <item href="Hackathon/img/1_page_1.png" id="hackathon_img_1_page_1_png" media-type="image/png"/>
+    <item href="Hackathon/img/1_page_2.png" id="hackathon_img_1_page_2_png" media-type="image/png"/>
+    <item href="Hackathon/img/1_page_3.png" id="hackathon_img_1_page_3_png" media-type="image/png"/>
+    <item href="Hackathon/img/1_page_4.png" id="hackathon_img_1_page_4_png" media-type="image/png"/>
+    <item href="Hackathon/img/1_page_5.png" id="hackathon_img_1_page_5_png" media-type="image/png"/>
+    <item href="Hackathon/img/1_page_6.png" id="hackathon_img_1_page_6_png" media-type="image/png"/>
+    <item href="Hackathon/img/2_page_1.png" id="hackathon_img_2_page_1_png" media-type="image/png"/>
+    <item href="Hackathon/img/2_page_2.png" id="hackathon_img_2_page_2_png" media-type="image/png"/>
+    <item href="Hackathon/img/2_page_3.png" id="hackathon_img_2_page_3_png" media-type="image/png"/>
+    <item href="Hackathon/img/2_page_4.png" id="hackathon_img_2_page_4_png" media-type="image/png"/>
+    <item href="Hackathon/img/2_page_5.png" id="hackathon_img_2_page_5_png" media-type="image/png"/>
+    <item href="Hackathon/img/2_page_6.png" id="hackathon_img_2_page_6_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_1.png" id="hackathon_img_3_page_1_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_2.png" id="hackathon_img_3_page_2_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_3.png" id="hackathon_img_3_page_3_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_4.png" id="hackathon_img_3_page_4_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_5.png" id="hackathon_img_3_page_5_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_6.png" id="hackathon_img_3_page_6_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_7.png" id="hackathon_img_3_page_7_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_8.png" id="hackathon_img_3_page_8_png" media-type="image/png"/>
+    <item href="Hackathon/img/3_page_9.png" id="hackathon_img_3_page_9_png" media-type="image/png"/>
+    <item href="Hackathon/img/placeholder.png" id="hackathon_img_placeholder_png" media-type="image/png"/>
+    <item href="Hackathon/js/jquery-1.11.1.min.js" id="hackathon_js_jquery_1_11_1_min_js" media-type="text/javascript"/>
+    <item href="Hackathon/js/pony.js" id="hackathon_js_pony_js" media-type="text/javascript"/>
+  </manifest>
+  <spine toc="ncx">
+<itemref idref="idp1"/>
+<itemref idref="idp2"/>
+<itemref idref="idp3"/>
+<itemref idref="idp4"/>
+<itemref idref="idp5"/>
+<itemref idref="idp6"/>
+<itemref idref="idp7"/>
+<itemref idref="idp8"/>
+  </spine>
+  <guide>
+    <reference href="toc.xhtml" type="toc" title="Table of contents"/>
+    <reference href="p1.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>

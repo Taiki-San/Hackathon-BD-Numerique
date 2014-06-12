@@ -1,0 +1,11 @@
+Pour installer cette version, veuillez suivre cette procédure:
+
+- Allez dans Chrome
+- Accédez à cette URL: chrome://extensions/
+- Cochez la case “Mode développeur”
+- Glissez le fichier .crx dans la fenêtre
+- Ouvrez Readium (nouvel onglet, et clichez sur le bouton “Apps”)
+- Cliquez sur le (+) en haut à droite
+- Sélectionnez l’ePub
+
+L'ePub devrait alors apparaitre dans la bibliothèque après un cours chargement.
